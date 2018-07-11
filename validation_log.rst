@@ -43,10 +43,10 @@ Fixes:
 Log
 ---
 
-Version: <upcoming>
+Version: build-2018-07-99
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Release Date: TBD
+Release Date: 2018-07-99
 ''''''''''''''''''''''''
 
 New Features:
