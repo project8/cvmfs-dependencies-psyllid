@@ -23,6 +23,8 @@ cat wget_log.txt
 ls
 
 ## decompress and link downloads
+tar -xvzf v0.8.0.tar.gz
+ln -s rabbitmq-c-0.8.0 rabbitmq-c
 #bzip2 -d dlib-19.9.tar.bz2      # dlib
 #tar -xf dlib-19.9.tar
 #ln -s dlib-19.9 dlib

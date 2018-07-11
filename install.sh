@@ -31,3 +31,11 @@ echo "PYTHONPATH: $PYTHONPATH"
 echo "Library search path:"
 
 
+# rabbitmq-c
+echo "rabbitmq-c"
+cd ${P8DEPPSYLLIDBASEDIR}/src/rabbitmq-c
+mkdir build
+cd build
+cmake -D CMAKE_INSTALL_PREFIX:PATH=${P8DEPPSYLLIDBASEDIR} .. | tee config_log.txt
+make -j3 install | tee make_install_log.txt
+echo "'make install' of rabbitmq-c done"
