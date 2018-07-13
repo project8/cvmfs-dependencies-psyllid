@@ -12,10 +12,7 @@ COPY ./cleanup.sh /tmp_install/cleanup.sh
 RUN cd /tmp_install && \
     ls && \
     source /opt/rh/devtoolset-3/enable && \
-    echo "build dir is: ${P8DEPPSYLLIDBASEDIR}" &&\
     . /tmp_install/run-cvmfs-install.sh && \
-    echo "build dir is: ${P8DEPPSYLLIDBASEDIR}" &&\
     /tmp_install/cleanup.sh && \
-    echo "build dir is: ${P8DEPPSYLLIDBASEDIR}" &&\
     rm -rf /tmp_install && \
     /bin/true
