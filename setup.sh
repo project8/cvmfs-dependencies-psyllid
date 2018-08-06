@@ -1,6 +1,6 @@
 # setting dependencies and dep-psyllid build name
 export P8DEPBUILD=build-2018-04-23
-export P8DEPPSYLLIDBUILD=build-2018-07-99
+export P8DEPPSYLLIDBUILD=build-2018-08-00
 
 # source the common dependencies 
 source /cvmfs/hep.pnnl.gov/project8/dependencies-common/${P8DEPBUILD}/setup.sh
